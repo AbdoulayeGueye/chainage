@@ -1,4 +1,8 @@
- "@babel/code-frame@7.0.0"
+#Commande:
+grep "_from" node_modules/**/package.json | cut -d ':' -f3 | sort -h | uniq  >> responseAGU.md
+ 
+#Résultat: 
+"@babel/code-frame@7.0.0"
  "@babel/code-frame@7.5.5"
  "@babel/generator@7.7.4"
  "@babel/helper-function-name@7.7.4"
